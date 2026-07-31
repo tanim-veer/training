@@ -62,3 +62,11 @@ seikatsu@OZF:~/training$
 - dans un if, toujours == (comparer), jamais = (affecter)
 - % n donne toujours un résultat entre 0 et n-1
 - prouver qu'un code marche pour TOUS les cas > le tester sur un cas
+
+étape lors du code boucle / conditions : 
+1. initialiser l'accumulateur AVANT la boucle
+2. le mettre à jour À CHAQUE tour, dans la boucle
+3. l'utiliser APRÈS la boucle
+1. initialiser l'accumulateur AVANT la boucle
+2. le mettre à jour À CHAQUE tour, dans la boucle
+3. l'utiliser APRÈS la boucle
