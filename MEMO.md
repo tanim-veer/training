@@ -56,3 +56,9 @@ seikatsu@OZF:~/training$
 - int("5") convertit texte -> entier. int(nombre) SANS guillemets = le contenu de la boîte
 - fonctions emboîtées : Python calcule de l'intérieur vers l'extérieur
 - lire un traceback : fichier + ligne, puis la dernière ligne (TypeError, ValueError...)
+- if condition:  puis bloc indenté (4 espaces). else: pour le cas contraire
+- l'indentation EST le langage en Python : ce qui est décalé appartient au bloc
+- comparateurs : ==  !=  >  <  >=  <=
+- dans un if, toujours == (comparer), jamais = (affecter)
+- % n donne toujours un résultat entre 0 et n-1
+- prouver qu'un code marche pour TOUS les cas > le tester sur un cas
