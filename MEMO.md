@@ -29,8 +29,17 @@ chiffrer = illisible ;; signer = prouve grace à l'authentification (verif que c
 Trame config nouveau pc : AUTHENTIFICATION (générer la paire de clés, donner la publique à GitHub, charger la clé dans l'agent. Sans ça, le push est refusé et tu es bloqué)
 
 ## Linux
+seikatsu@OZF:~/training$
+    │      │      │     │
+    │      │      │     └── le symbole d'invite $ = user normal et # = root
+    │      │      └──────── TON RÉPERTOIRE COURANT
+    │      └─────────────── le nom de la machine
+    └────────────────────── ton nom d'utilisateur
 whoami, id
-root = uid 0, ignore les permissions. $ = moi, # = root
+root = uid 0, ignore les permissions
 sudo = exécute UNE commande en root, puis me rend la main. Trace + demande mon mdp
 permissions : type + 3 blocs rwx, propriétaire/groupe/autres, notation chiffrée
-se déplacer : cd, .., ~, Tab
+se déplacer : pwd, ls, cd .. (parent), cd (retour ~), cd - (retour comme bouton précédent)
+chemin absolu : depuis la racine (commence par /) 
+chemin relatif : depuis ou je suis situé
+
