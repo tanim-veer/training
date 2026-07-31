@@ -7,6 +7,8 @@ git add X     → zone 1 vers zone 2 (préparation) on prepare les fichiers dans
 git commit    → zone 2 vers zone 3 (dépôt local) envoie RIEN sur internet mais en local
 git push      → zone 3 vers zone 4 (GitHub)
 git log       → l'historique des commits
+git commit -am (Le -a fait le git add mais à faire que sur un fichier deja add pas un nouveau fichier créer car il va l'ignorer)
+phrase de passe -> chiffre et signe la clé privé (quand tu demandes à utiliser la clé (ssh-add, un push...), SSH doit d'abord déchiffrer le fichier, ce n'est pas "il vérifie un mot de passe puis te donne accès", c'est "il utilise ta phrase comme clé de déchiffrement"
 
 ## SSH
 
