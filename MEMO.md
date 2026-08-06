@@ -70,3 +70,13 @@ seikatsu@OZF:~/training$
 1. initialiser l'accumulateur AVANT la boucle
 2. le mettre à jour À CHAQUE tour, dans la boucle
 3. l'utiliser APRÈS la boucle
+
+
+- liste : [ ] contient plusieurs valeurs ordonnées. Index à partir de 0
+- liste[0] = premier, liste[-1] = dernier, len(liste) = taille
+- index inexistant => IndexError. Index vont de 0 à len-1
+- for x in liste : parcourt directement les éléments (préféré aux index)
+- liste.append(x) : ajoute x à la fin
+- MOTIF agrégation : liste -> une valeur (somme, moyenne, compte)
+- MOTIF filtrage : liste vide + for + if + append -> liste plus petite
+- un bon nom de variable dit ce qu'elle contient
