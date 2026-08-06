@@ -80,3 +80,10 @@ seikatsu@OZF:~/training$
 - MOTIF agrégation : liste -> une valeur (somme, moyenne, compte)
 - MOTIF filtrage : liste vide + for + if + append -> liste plus petite
 - un bon nom de variable dit ce qu'elle contient
+
+- transformation : liste vide + for + append(élément MODIFIÉ), SANS if
+  ex : prix_solde.append(p * 0.8) réduit chaque prix de 20%
+- LA TRILOGIE du traitement de données :
+    filtrer (garder) / agréger (réduire à 1 valeur) / transformer (modifier chaque élément)
+- variable de boucle : la nommer d'après l'élément (for p in prix), pas "i"
+  "i" seulement quand on boucle sur des index avec range
