@@ -94,4 +94,7 @@ seikatsu@OZF:~/training$
 - len(dict) = nombre de paires
 - parcourir : for k in dict (clés) / dict.values() (valeurs) / dict.items() (les deux)
   for nom, note in notes.items():  → deux variables d'un coup
-- TODO : voir les f-strings pour l'affichage propre  f"{nom} : {note}"
+
+- f-string : f"texte {variable} texte"  → insère les variables dans le texte
+- {note + 2} : on peut mettre un calcul dans les accolades
+- {moy:.2f} : arrondit l'AFFICHAGE à 2 décimales (ne change pas la vraie valeur)
