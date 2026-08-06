@@ -87,3 +87,11 @@ seikatsu@OZF:~/training$
     filtrer (garder) / agréger (réduire à 1 valeur) / transformer (modifier chaque élément)
 - variable de boucle : la nommer d'après l'élément (for p in prix), pas "i"
   "i" seulement quand on boucle sur des index avec range
+
+- dictionnaire : { "clé": valeur }. Accès par CLÉ, pas par position : d["nom"]
+- accolades {} pour dict, crochets [] pour liste
+- d["x"] = v : ajoute si absent, modifie si présent. Clé absente en lecture => KeyError
+- len(dict) = nombre de paires
+- parcourir : for k in dict (clés) / dict.values() (valeurs) / dict.items() (les deux)
+  for nom, note in notes.items():  → deux variables d'un coup
+- TODO : voir les f-strings pour l'affichage propre  f"{nom} : {note}"
